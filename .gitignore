@@ -1,0 +1,23 @@
+# Ignore secrets
+API KEY.txt
+
+# Ignore large model weights
+*.safetensors
+*.pt
+*.bin
+
+# Ignore temporary folders
+check/
+wandb/
+__pycache__/
+*.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore datasets (if you don’t want to push CSVs)
+*.csv
+
+# Ignore logs
+*.log
